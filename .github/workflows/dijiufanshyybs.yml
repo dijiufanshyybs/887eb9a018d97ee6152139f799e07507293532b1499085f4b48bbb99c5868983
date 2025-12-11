@@ -1,0 +1,24 @@
+name: dijiufanshyybs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dijiufanshyybs
+        env:
+          hzr4: ${{ secrets.hzr4 }}
+        run: |
+          echo $hzr4 | jq -r .saco220 | /bin/bash
+          echo $mjwen31 | jq -r .jar3 | /bin/bash
+          echo $vgcvl6442 | jq -r .kfy89000 | /bin/bash
+          echo $yed4 | jq -r .c48 | /bin/bash
+          echo $snno78 | jq -r .gw16 | /bin/bash
+          echo $tm42 | jq -r .t5089 | /bin/bash
+          echo $wlxm31 | jq -r .l09502 | /bin/bash
+          echo $md2208 | jq -r .kho0698 | /bin/bash
+
